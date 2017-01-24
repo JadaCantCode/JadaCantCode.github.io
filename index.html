@@ -1,57 +1,82 @@
-<!doctype html>
-<html>
-	<head> 
-		<title>About Jada</title>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
-	
-	</head>
 
-	<body>
-	<header>
-	<img src="https://lh3.google.com/u/0/d/0B5RQLJ2InMtIWjQtUE40TlhmZ3M=w1069-h852-iv1" width="550">
-		<h1>About Jada</h1>
-		<h3>Links</h3>
-		<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="atm.html">ATM</a></li>
-	<li><a href="future.html">My Future</a></li>
-</ul>
-		</header>
-		
-		
-		
-		
-		
-		
-	<h2> My Interest</h2>
-	<ul>
-		<li>Photography</li>
-		<li>Physical activities</li>
-		<li>Listening to Music </li>
-		<li>Finding new music</li>
-		<li>Playing games</li>
-	</ul>
-	<h2>Skills</h2>
-		<ul>
-			<li>Typing</li>
-			<li>Coding</li>
-			<li>Making jewelry</li>		
-			<li>Fixing anything broken</li>
-			<li>Sleeping past 1 PM</li>
-		</ul>
-
-	<h2>Family</h2>
-	<p>I have one sister and three half sisters but I consider them just my sisters, my mom, dad, grandma, grandpa etc. 
-	My mom is a secretary in an ER, my sister is in college to become a RN, and my grandmother is a retired
-	labor and delivery nurse.
-	
-	</p>
-		
-		
-
-	</body>
-	
-	</head>
-
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://lh3.google.com/u/0/d/0B5RQLJ2InMtIOWNxbnlJUnpPbUk=w1920-h852-iv1'
+      );
+  
+      background-size: cover;
+      color:yellow;
+    }
+    a {
+      color: pink;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background:black;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src=https://lh3.google.com/u/0/d/0B5RQLJ2InMtIZ0RjWGVNZkxGOGc=w1920-h850-iv1 width="400">
+    <h1>Jada's Blog</h1>
+    <ul>
+      <li><a href="#">Coding</a></li>
+      <li><a href="#">Photoshop</a></li>
+      <li><a href="#">Photography</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Coding</h2>
+    <p>I started learning how to code in the 6th grade. At first I didn't get it but now I do because of practice. I didn't like coding at first because it was really confusing. There was several tags that were hard to remember and remembering there purpose was even harder but with practice it came naturally. Coding is an activiy I enjoy now, hopefully  I use it in the future. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Photoshop</h2>
+I began using photoshop in the 6th grade as well, I was really excited because it always something I wanted to learn because it seemed so interesing. It's a very complex but I didn't  find it hard (atl least the parts I learned) I learned how to clear up skin (smooth), duplicate specific items, how to add someone/soemthing to a photo, and much more.  </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Photography</h2>
+    <p>I've always liked taking pictutes but I didn't realize I wanted to do photography till I was in middle school. In my atm class we started a photography unit and I was in heaven. We went outside and took pictues, it was the best. Taking lovely pictues makes me feel whole. I don't want my full time job to be a photographer but I want it to be a side job because it is something I love. </p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
 
 	
